@@ -1,0 +1,16 @@
+:root {
+    --primary: red;
+    --secondary: black;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0
+}
+
+#output{
+    border: 1px solid black;
+    height: 15vh;
+    max-width: 60%;
+    
+}

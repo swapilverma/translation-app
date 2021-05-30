@@ -1,16 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
 :root {
-    --primary: red;
-    --secondary: black;
+    --primary: #F3F4F6;
+    --secondary: #9e7962;
 }
 
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Odibee Sans', cursive;
+    background-color: var(--primary);
     margin: 0
 }
+nav{
+    background-color: var(--secondary);
+    padding: 0.2rem 0rem;
+    margin:0;
+    border: 0;
 
+}
+.hero-heading{
+    text-align: center;
+    color: var(--primary);
+    font-size: 50px;
+    padding: 0rem;
+    margin: auto;
+}
+
+.hero-image{
+    display: block;
+    border-radius: 20rem;
+    max-width: 400px;
+    padding: 1rem 0rem;
+    margin: auto;
+    /* align-content: center; */
+}
+textarea {
+    width: 100%;
+    height: 15vh;
+    display: block;
+    font-family: inherit;
+    font-size: larger;
+    max-width: 600px;
+    padding: 1rem 0rem;
+    margin: auto;
+    border-color: black;
+    border-width: medium;
+}
+
+#btn-translate{
+    display: block;
+    font-family: 'Odibee Sans', cursive;
+    width: 20%;
+    text-align: center;
+    padding: 1.5rem 0rem;
+    border-width: thick;
+    margin: auto;
+    background-color: var(--secondary);
+    color: var(--primary);
+}
 #output{
     border: 1px solid black;
     height: 15vh;
-    max-width: 60%;
-    
+    padding: 0.5rem 0rem;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 1rem;
+    background-color: white;
+    border-width: medium;
+}
+
+footer{
+    background-color: var(--secondary);
+    text-align: center;
+    padding: 1rem 0rem;
+    margin: 0;
+}
+.footer-text{
+    padding: 0.2rem;
+    border: 0rem;
+    margin: auto;
+    max-width: 600px;
+    color: var(--primary);
+
 }

@@ -12,7 +12,7 @@ body{
 }
 nav{
     background-color: var(--secondary);
-    padding: 0.2rem 0rem;
+    padding: 0.8rem 0rem;
     margin:0;
     border: 0;
 
@@ -28,7 +28,7 @@ nav{
 .hero-image{
     display: block;
     border-radius: 20rem;
-    max-width: 400px;
+    max-width: 350px;
     padding: 1rem 0rem;
     margin: auto;
     /* align-content: center; */
@@ -49,6 +49,7 @@ textarea {
 #btn-translate{
     display: block;
     font-family: 'Odibee Sans', cursive;
+    font-size: large;
     width: 20%;
     text-align: center;
     padding: 1.5rem 0rem;
@@ -75,10 +76,11 @@ footer{
     margin: 0;
 }
 .footer-text{
-    padding: 0.2rem;
+    padding: 0.1rem;
     border: 0rem;
     margin: auto;
     max-width: 600px;
     color: var(--primary);
+    font-size: large;
 
 }

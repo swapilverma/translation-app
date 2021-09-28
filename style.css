@@ -51,6 +51,7 @@ textarea {
     font-family: 'Odibee Sans', cursive;
     font-size: large;
     width: 20%;
+    min-width: 200px;
     text-align: center;
     padding: 1.5rem 0rem;
     border-width: thick;
